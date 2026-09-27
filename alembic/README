@@ -1,0 +1,11 @@
+# Alembic migrations
+
+This directory contains the Alembic migration environment for the Network Route API.
+
+Create a migration from the SQLAlchemy models with:
+
+    alembic revision --autogenerate -m "describe change"
+
+Apply migrations with:
+
+    alembic upgrade head
